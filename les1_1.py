@@ -4,10 +4,10 @@
 number = input('Введите трехзначное число: ')
 
 sum_number = 0
-prod = 1
+prod_number = 1
 
 for i in number:
     sum_number += int(i)
-    prod *= int(i)
+    prod_number *= int(i)
 print(f"Сумма цифр числа {number}: {sum_number}")
-print(f"Произведение цифр: {number}: {prod}")
+print(f"Произведение цифр: {number}: {prod_number}")
